@@ -1,0 +1,81 @@
+*{
+    margin:0;
+}
+body{
+    background-color: aqua;
+}
+.box{
+    margin:auto;
+    width:30%;
+    height: 75%;
+    margin-top: 1%;
+}
+.in{
+    background-color: aliceblue;
+    padding:5%;
+}
+h2{
+    text-align: center;
+    color:blue;
+    margin-bottom: 7%;
+}
+label{
+    display: inline-block;
+    width:40%;
+    padding:1%;
+    font-size: larger;
+    /* border:1px solid green; */
+}
+input[type=text], input[type=email], input[type=password], input[type=number],input[type=file], select, textarea{
+    width:57%;
+    padding:1%;
+    margin-bottom: 2%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]
+{
+    margin-top:5%;
+    background-color:blue;
+    color:white;
+    width:100%;
+    border-radius: 4px;
+    border: none;
+    padding:1%;
+    font-size: larger;
+}
+.cb
+{
+ margin-left: -25%;
+ display: inline;
+}
+
+.set{
+    margin-top: -20% !important;
+}
+.p1{
+    display: inline-block;
+    font-size: medium;
+}
+span{
+    color:red;
+    font-size:medium;
+}
+p{
+    display: inline-block;
+    font-size: large;
+}
+
+input[type=radio], input[type=checkbox]
+{
+    margin:0 2px 0px 9px;
+}
+.boxin1,.boxin2{
+    display: inline-block;
+    margin-left:-12px;
+    overflow: visible;
+    margin-bottom:8px;
+}
+.boxin2{
+    margin-bottom:15px;
+}
